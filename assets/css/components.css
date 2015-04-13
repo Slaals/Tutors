@@ -1,0 +1,291 @@
+/* -------------------- */
+/*    Menu principal    */
+/* -------------------- */
+ul.widget-menu-main {
+	float:right;
+}
+ul.widget-menu-main li {
+	float:left; 
+	position:relative;
+}
+ul.widget-menu-main li.signout {
+	background:url('../img/signout.png') 10px center no-repeat;
+}
+ul.widget-menu-main li a {
+	display:inline-block; 
+	font-size:15px; 
+	line-height:50px;
+	color:#bfbfbf; 
+	padding:8px 30px; 
+	text-transform:uppercase;
+}
+/*°°°°°°°°°°°°°°°°°°°°°°*/
+
+
+/* ------------------- */
+/* Menu fonctionnalité */
+/* ------------------- */
+ul.widget-menu-feature {
+	position:absolute;
+	list-style: none;
+	padding:0 2% 0 1.5%;
+	height:100%;
+	background: #333;
+	font-size: 0.95em;
+}
+ul.widget-menu-feature li {
+	float: left;
+	position: relative;
+	width:100%;
+	height:100%;
+	line-height:70px;
+}
+ul.widget-menu-feature li a{
+	
+	width:100%;
+	display:block;
+	color:#ccc;
+}
+ul.widget-menu-feature-list {
+	list-style: none;
+	position: absolute; 
+	display: none;
+	float: left;
+	white-space:nowrap;
+	opacity:0.9;
+	background: #ddd;
+}
+ul.widget-menu-feature-list li{
+	font-size:12px;
+	background: #ddd;
+	height:auto;
+	line-height:1em;
+
+}
+ul.widget-menu-feature-list li a{
+	color:#222;
+	padding:8px 9px;
+	height:auto;
+}
+/*°°°°°°°°°°°°°°°°°°°°°°*/
+
+
+/* -------------------- */
+/* Composant formulaire */
+/* -------------------- */
+.form{
+	width:50%;	
+}
+.form .field{
+	width:30%;
+}
+.form .label{
+	width:10%;
+}
+.form .label label{
+	height:100%
+}
+.form-error{
+	margin-top:10px;
+	padding:5px;
+	border:1px solid #ffadad;
+	background:#ffebeb;
+}
+.form-successful {
+	margin-top:10px;
+	padding:5px;
+	border:1px solid #ffadad;
+	background:#9EDBAE;
+}
+/*°°°°°°°°°°°°°°°°°°°°°°*/
+
+
+/* ----------------------- */
+/* Composant table général */
+/* ----------------------- */
+table.table-component, .widget-button-default {
+	-moz-user-select: -moz-none;
+	-moz-user-select: none;
+	-o-user-select:none;
+	-khtml-user-select:none; /* you could also put this in a class */
+	-webkit-user-select:none;/* and add the CSS class here instead */
+	-ms-user-select:none;
+	user-select:none;
+}
+table.table-component td {
+	width:152px;
+}
+table.table-component input, select {
+	width: 116px;
+	padding:4px 2px;
+	margin:0;
+}
+#student-formation {
+	width: 75px;
+	padding: 4px 2px;
+	float: left;
+	margin: 0;
+}
+#student-semester {
+	width: 65px;
+	padding: 4px 2px;
+	float: right;
+	margin: 0;
+}
+table.table-component td, th {
+	padding:5px 15px;
+	text-align:center;
+}
+table.table-component th {
+	text-transform:uppercase;
+}
+table.table-component td {
+	border-right:1px dotted #ccc; 
+}
+table.table-component td:nth-last-child(1){
+	border-right:none;
+}
+table.table-component td img {
+	vertical-align:middle;
+	margin-top:-3px;
+}
+table.table-component tr:nth-child(even) {
+	background: #dbe7f2;
+}
+table.table-component tr:nth-child(odd) {
+	background: #fff;
+}
+.multi-table-structure {
+	display: inline-block;
+	width: 510px;
+	margin-left: 2px;
+	margin-top: 15px;
+	margin-bottom: 5px;
+}
+.multi-table-structure caption {
+	background-color: #4D677F;
+	height: 24px;
+	padding-bottom: 5px;
+	padding-top: 5px;
+	font-weight: bold;
+	color: white;
+}
+/*°°°°°°°°°°°°°°°°°°°°°°*/
+
+/* ----------------------- */
+/* Composant table default */
+/* ----------------------- */
+table.table-default img {
+	vertical-align:middle;
+	margin-left:5px;
+}
+/*°°°°°°°°°°°°°°°°°°°°°°*/
+
+
+/* ----------------------- */
+/* Composant table manage  */
+/* ----------------------- */
+table.table-manage-data th {
+	background: #fff;
+}
+table.table-manage-data tr td:nth-last-child(1), table.table-manage-data td:nth-last-child(2){
+	width:20px;
+	border-right:none;
+	padding:5px 15px;
+}
+table.table-manage-data #table-hidden-row, table.table-manage-data .widget-button-default.delete-button {
+	display:none;
+}
+table.table-manage-data #table-hidden-row td {
+	background-color: white;
+}
+/*°°°°°°°°°°°°°°°°°°°°°°*/
+
+
+/* ----------------------- */
+/* Widget Button Default   */
+/* ----------------------- */
+.widget-button-default {
+	display:inline-block;
+	cursor:pointer;
+	width:20px;
+	height:20px;
+}
+.widget-button-default.check {
+	background: url('../img/check.png') center center no-repeat;
+	width:20px;
+	height:20px;
+}
+.widget-button-default.none {
+	background: url('../img/none.png') center center no-repeat;
+	width:20px;
+	height:20px;
+}
+.widget-button-default.add {
+	background: url('../img/plus.png') center center no-repeat;
+}	
+.widget-button-default.add-button-extend {
+	background: url('../img/add.png') 6px  center no-repeat #737c85;
+	padding:5px 9px 5px 33px;
+	color:#fff;
+	width:auto;
+	height:inherit;
+	border-radius:5px;
+}
+.widget-button-default.add-active {
+	background: url('../img/plus.gif') center center no-repeat;
+	width:20px;
+	height:20px;
+}
+.widget-button-default.add-inactive {
+	background: url('../img/plus_grey.gif') center center no-repeat;
+	width:20px;
+	height:20px;
+
+}
+.widget-button-default.delete-button, .widget-button-default.cancel-button {
+	background: url('../img/croix.png') center center no-repeat;
+	width:20px;
+	height:20px;
+}
+
+/*°°°°°°°°°°°°°°°°°°°°°°*/
+
+
+/* ----------------------- */
+/* Widget Button Advanced  */
+/* ----------------------- */
+.widget-button-advanced {
+	cursor:pointer;
+	background:#d0dbc5;
+	border-radius:5px;
+	margin:15px;
+	margin-left: 0px;
+}
+.widget-button-advanced td, .widget-button-advanced img{
+	vertical-align:middle;
+	padding:3px;
+}
+.widget-button-advanced td:nth-last-child(1){
+	padding-right:8px;
+}
+.widget-button-advanced img{
+	margin-top:-1px;
+}
+/*°°°°°°°°°°°°°°°°°°°°°°*/
+
+
+/* ----------------------- */
+/* Widget Button Classic   */
+/* ----------------------- */
+button.widget-button-classic {
+	background: #d0dbc5;
+	padding:8px;
+	border:1px solid #999;
+	border-radius:5px;
+	cursor:pointer;
+	margin:15px;
+	margin-left: 0px;
+	font-family:inherit;
+}
+/*°°°°°°°°°°°°°°°°°°°°°°*/

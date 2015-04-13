@@ -1,0 +1,150 @@
+@font-face {
+	font-family: 'Muli';
+	src: url('../font/Muli-Light.eot');
+	src: url('../font/Muli-Light.eot?#iefix') format('embedded-opentype'),
+		url('../font/Muli-Light.woff') format('woff'),
+		url('../font/Muli-Light.ttf') format('truetype'),
+		url('../font/Muli-Light.svg#Muli-Light') format('svg');
+}
+
+@font-face {
+    font-family: 'Amaranth-Bold';
+    src: url('../font/Amaranth-Bold.otf') format('opentype');
+}
+
+/* Getting the new tags to behave */
+article, aside, audio, canvas, command, datalist, details, 
+embed, figcaption, figure, footer, header, hgroup, 
+keygen, meter, nav, output, progress, section, source, video {
+	display:block;
+}
+
+mark, rp, rt, ruby, summary, time {
+	display:inline;
+}
+
+/* Global properties ======================================================== */
+html {
+    width:100%;
+}
+
+body {
+	font-family:'Muli', sans-serif;
+	font-size:100%; 
+	color:#030303;
+	background:#f3f3f3;
+}
+
+label {
+	display:block; 
+	height:40px; 
+	overflow:hidden;
+	cursor:pointer;
+}
+
+input {
+	width:95.5%;
+	font-size:12px; 
+	line-height:2em;
+	color:#030303;
+	padding:5px 2%; 
+	font-family: Consolas, sans-serif; 
+	border:1px solid #ebebeb; 
+	background:#fff;
+
+}
+
+input[type=submit]{
+	cursor:pointer;
+	background: #ddd;
+	color:#555;
+	width:100%;
+	border:1px solid #02bffe;
+	background: #58d6fc;
+}
+
+textarea {
+	float:left;
+	height:196px; 
+	width:92%;
+	font-size:12px; 
+	line-height:1.25em;
+	color:#030303;
+	padding:5px 10px; 
+	margin:0; 
+	font-family:Arial, Helvetica, sans-serif; 
+	border:1px solid #ebebeb;
+	background:#fff;
+	overflow:auto;
+	outline:none;
+}
+
+table td {
+	padding:5px 0;
+	vertical-align:middle;
+}
+
+.main {
+	font-size:13px; 
+	line-height:24px;
+}
+
+.wrapper {
+	width:1024px; 
+	margin:0 auto;
+	overflow:hidden;
+}
+
+.aligncenter {
+	text-align:center;
+}
+
+/*********************************header*************************************/
+header {
+	width:100%;
+	position:relative; 
+	z-index:2;
+}
+
+.menu-row {
+	width:100%;
+	background:#555;
+}
+
+#logo {
+	height:50px;
+	padding:10px 10px 10px 0;
+}
+
+/*********************************content*************************************/
+#content {
+	width:100%; 
+	padding:33px 0 50px;
+	background:#fff;
+	position:relative;
+	z-index:1;
+}
+
+h1 {
+	font-family: 'Amaranth-Bold';
+	font-size:27px; 
+	line-height:1em;
+	text-transform:uppercase;
+	margin-bottom:18px;
+}
+
+h3 {
+	font-size:15px; 
+	line-height:1em;
+	margin-bottom:18px;
+}
+
+h6 {
+	color:#000;
+}
+
+/****************************footer************************/
+footer {
+	width:100%; 
+	padding:43px 0;
+}

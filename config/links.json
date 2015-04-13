@@ -1,0 +1,33 @@
+{
+	"service_scolarite": {
+		"home": "/EducationService/",
+		"features": {
+			"Gérer les étudiants": "/EducationService/ManageStudent/",
+			"Afficher les étudiants orphelins": "/EducationService/ShowOrphans/",
+			"Afficher les conseillés (nb étudiant décroissant)": "/HumanRessourcesDirector/ShowDescNumberCounsellor/",
+			"Afficher les étudiants selon le programme": "/EducationService/ShowStudentByProgram/",
+			"Attribuer tous les étudiants orhpelins": "/EducationService/AssignNewStudents/",
+			"Supprimer tous les étudiants": "/EducationService/PurgeStudent/",
+			"Ajouter des étudiants par CSV": "/EducationService/AddStudents/"
+		}
+	},
+	"directeur_ressources_humaine": {
+		"home": "/HumanRessourcesDirector/",
+		"features": {
+			"Gérer les enseignants chercheurs": "/HumanRessourcesDirector/ManageAcademicResearcher/",
+			"Afficher les conseillés": "/HumanRessourcesDirector/ShowCounsellor/",
+			"Afficher les conseillés (nb étudiant décroissant)": "/HumanRessourcesDirector/ShowDescNumberCounsellor/",
+			"Afficher les conseillés avec leurs étudiants": "/HumanRessourcesDirector/ShowCounsellorWithStudent/",
+			"Supprimer tous les enseignants": "/HumanRessourcesDirector/PurgeAcademicResearcher/",
+			"Ajouter des enseignants par CSV": "/HumanRessourcesDirector/AddAcademicResearchers/"
+		}
+	},
+	"responsable_programme": {
+		"home": "/ProgramManager/",
+		"features": {
+			"Gérer les habilitations": "/ProgramManager/ManageHabilitation/",
+			"Afficher les étudiants et leur conseillé": "/ProgramManager/ShowStudentAndCounsellor/",
+			"Habiliter tous les enseignants au programme": "/ProgramManager/AuthorizeAllAcademicResearcher/"
+		}
+	}
+}
